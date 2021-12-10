@@ -1,0 +1,1 @@
+protoc --plugin="../node_modules/.bin/protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:../src/generated" --ts_out="service=grpc-web:../src/generated" --proto_path=../../back/Grpc/Protos temp.proto
